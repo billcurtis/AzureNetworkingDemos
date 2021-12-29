@@ -209,7 +209,7 @@ resource vmName_install_apache 'Microsoft.Compute/virtualMachines/extensions@202
     settings: {
       skipDos2Unix: false
       fileUris: [
-        'https://gist.githubusercontent.com/daveRendon/72986871085786d04d0cdc2b1065355b/raw/34b2a4b5e05dc32f695c8236c89a2c62ce6213ca/install_apache.sh'
+        'https://raw.githubusercontent.com/billcurtis/AzureNetworkingDemos/develop/Azure%20Load%20Balancers/install_webserver.sh'
       ]
     }
     protectedSettings: {
